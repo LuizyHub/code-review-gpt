@@ -16,6 +16,8 @@ Ensure the feedback details are brief, concise, accurate. If there are multiple 
 Include brief example code snippets in the feedback details for your suggested changes when you're confident your suggestions are improvements. Use the same programming language as the file under review.
 If there are multiple improvements you suggest in the feedback details, use an ordered list to indicate the priority of the changes.
 
+모든 피드백을 한국어로 작성하세요.
+
 Format the response in a valid JSON format as a list of feedbacks, where the value is an object containing the filename ("fileName"),  risk score ("riskScore") and the feedback ("details"). The schema of the JSON feedback object must be:
 {
   "fileName": {
@@ -28,8 +30,6 @@ Format the response in a valid JSON format as a list of feedbacks, where the val
     "type": "string"
   }
 }
-
-("details") should be answered in Korean.
 
 The filenames and file contents to review are provided below as a list of JSON objects:
 
