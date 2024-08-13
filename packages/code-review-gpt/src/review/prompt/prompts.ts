@@ -31,6 +31,8 @@ Format the response in a valid JSON format as a list of feedbacks, where the val
   }
 }
 
+("details") should be answered in Korean.
+
 The filenames and file contents to review are provided below as a list of JSON objects:
 
 `;
